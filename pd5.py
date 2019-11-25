@@ -21,6 +21,6 @@ def getStockData():
         outFile.write('\n' + str(data_out.get('Stock: ', stockSymbol)))
 
         outFile.write('\n' + str(data_out.get('Time Series (Daily)')))
-    print('Quit!')
+    print('Stock Quotes Retrieved Successfully!')
     outFile.close()
 getStockData()
